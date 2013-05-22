@@ -12,7 +12,8 @@ body.index
 		color: #FFFFFF;
 		background-color: #00014a;
 		height: 100%;
-		width:100%;		
+		width:100%;	
+		margin: 0;		
 	}
 	
 body
@@ -30,6 +31,7 @@ body
 .mainframe
 	{
 		width: 100%;
+		height: 100%;
 	}
 	
 a:link{color: #FFFFFF; font-weight: bold; text-decoration:none;}
