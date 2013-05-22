@@ -28,10 +28,10 @@ body
 		padding: 0pt;
 		color: #FFFFFF;
 		background-color: #6176b5;
-		background-image: -moz-linear-gradient(top,#00014a 0%, #6176b5 10%, #00014a 90%);
-		background-image: -webkit-linear-gradient(top,#00014a 0%, #6176b5 10%, #00014a 90%);
-		background-image: -ms-linear-gradient(top,#00014a 0%, #6176b5 10%, #00014a 90%);
-		background-image: -o-linear-gradient(top,#00014a 0%, #6176b5 10%, #00014a 90%);
+		background-image: -moz-linear-gradient(top,#00014a 0%, #6176b5 50%, #00014a 90%);
+		background-image: -webkit-linear-gradient(top,#00014a 0%, #6176b5 50%, #00014a 90%);
+		background-image: -ms-linear-gradient(top,#00014a 0%, #6176b5 50%, #00014a 90%);
+		background-image: -o-linear-gradient(top,#00014a 0%, #6176b5 50%, #00014a 90%);
 	}
 	
 .mainframe
