@@ -8,7 +8,7 @@ body
 		text-align: center;
 		font-family: Comic Sans MS;
 		font-family: Calibri;
-		padding: 10pt;
+		padding: 0pt;
 		color: #FFFFFF;
 		background-color: #00014a;
 	}
@@ -40,14 +40,14 @@ a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
 
 .Mid {
    background-image: url(../res/img/pattern/patterncontentleft.png);
-   background-repeat: no-repeat;
+   background-repeat: repeat-y;
    padding-left: 20px;
    margin: 0 auto;	
 }
 .Mid div {
    background-image: url(../res/img/pattern/patterncontentright.png);
    background-position: right;
-   background-repeat: no-repeat;
+   background-repeat: repeat-y;
    padding-right: 20px;
 
 }
