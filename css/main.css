@@ -2,7 +2,7 @@ img
 	{
 		border-width: 0;
 	}
-
+/*
 body.index
 	{
 		text-align: center;
@@ -14,8 +14,12 @@ body.index
 		height: 100%;
 		width:100%;	
 		margin: 0;		
+		background-image: -moz-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -webkit-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -ms-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -o-linear-gradient(top, #6176b5 0%, #00014a 50%);
 	}
-	
+*/	
 body
 	{
 		text-align: center;
@@ -26,6 +30,10 @@ body
 		background-color: #6176b5;
 		height: 100%;
 		width:100%;
+		background-image: -moz-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -webkit-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -ms-linear-gradient(top, #6176b5 0%, #00014a 50%);
+		background-image: -o-linear-gradient(top, #6176b5 0%, #00014a 50%);
 	}
 	
 .mainframe
@@ -41,6 +49,9 @@ a:visited{color: #FFFFFF; font-weight: bold; text-decoration:none;}
 a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
 
 .Header {
+   position: absolute;
+   left: 0;
+   top:0;
    background-image: url(../res/img/pattern/patternheadleft.png);
    background-repeat: no-repeat;
    padding-left: 20px;
