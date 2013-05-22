@@ -38,6 +38,12 @@
 	}
 	
 	
+.top_bar_title
+	{
+		font-weight: bold;
+		padding-top: 6px;
+	}
+	
 .main_menu
 	{
 		display: none;
@@ -66,13 +72,48 @@
 		background-color: rgba(0,0,0,0.5);
 		
 		overflow: auto;
+		-moz-border-radius:10px; /* Firefox */
+		-webkit-border-radius:10px; /* Safari, Chrome */
+		border-radius:10px; /* Opera (W3C Standard) */
 	}
 	
 .menu_item
 	{
 		height: 30px;
+		font-size: 20px;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-align: right;
-		padding-bottom: 7px;
+		vertical-align: middle;
+		margin-bottom: 7px;
 		list-style-type: none;
 		font-weight: bold;
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0,0.5);
+		
+		
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Safari, Chrome */
+		border-radius:5px; /* Opera (W3C Standard) */
+	}
+.menu_item:hover
+	{
+		height: 30px;
+		font-size: 20px;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: right;
+		vertical-align: middle;
+		margin-bottom: 7px;
+		list-style-type: none;
+		font-weight: bold;
+		background-color: rgb(180,180,180);
+		background-color: rgba(180,180,180,0.5);
+		
+		
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Safari, Chrome */
+		border-radius:5px; /* Opera (W3C Standard) */
 	}
