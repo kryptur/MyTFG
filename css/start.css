@@ -1,9 +1,10 @@
 .start_div
 	{
-		padding: 5pt;
+		padding: 10pt;
 		display: inline-block;
-		margin-left: 5pt;
-		margin-right: 5pt;
+		margin-left: 10pt;
+		margin-right: 10pt;
+		margin-bottom: 10pt;
 		text-align: center;
 		margin: 0 auto;
 	}
