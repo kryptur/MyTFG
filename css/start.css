@@ -1,0 +1,13 @@
+.start_div
+	{
+		padding: 5pt;
+		display: inline-block;
+		margin-left: 5pt;
+		margin-right: 5pt;
+	}
+	
+.start_img
+	{
+		width: 55pt;
+		height: 55pt;
+	}
