@@ -44,6 +44,7 @@ a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
    background-repeat: no-repeat;
    padding-left: 20px;
    margin: 0 auto;	
+   z-index: 100;
 }
 .Header div {
    background-image: url(../res/img/pattern/patternheadright.png);
@@ -61,6 +62,10 @@ a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
 }
 
 .Mid {
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 1;
    background-image: url(../res/img/pattern/patterncontentleft.png);
    background-repeat: repeat-y;
    padding-left: 20px;
@@ -87,6 +92,7 @@ a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
    background-repeat: no-repeat;
    padding-left: 20px;
    margin: 0 auto;	
+   z-index: 100;
 }
 .Footer div {
    background-image: url(../res/img/pattern/patternfooterright.png);
