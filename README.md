@@ -1,4 +1,7 @@
 MyTFG
 =====
 
-MyTFG Application
+MyTFG App
+See mytfg.de for whole Website
+
+Kryptur
