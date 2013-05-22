@@ -1,0 +1,19 @@
+img
+	{
+		border-width: 0;
+	}
+
+body
+	{
+		
+		font-family: Comic Sans MS;
+		font-family: Calibri;
+		margin-top: 50px;
+		color: #FFFFFF;
+		background-color: #00014a;
+	}
+	
+a:link{color: #FFFFFF; font-weight: bold; text-decoration:none;}
+a:active{color: #FFFFFF; font-weight: bold; text-decoration:underline;}
+a:visited{color: #FFFFFF; font-weight: bold; text-decoration:none;}
+a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
