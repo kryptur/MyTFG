@@ -24,6 +24,8 @@
 		position: absolute;
 		top: 7px;
 		left: 7px;
+		height: 25px;
+		width: 25px;
 	}
 	
 
@@ -32,13 +34,10 @@
 		position: absolute;
 		top: 7px;
 		right: 7px;
-	}
-	
-.top_bar_img
-	{
 		height: 25px;
 		width: 25px;
 	}
+	
 	
 .main_menu
 	{
