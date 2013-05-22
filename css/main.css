@@ -5,7 +5,7 @@ img
 
 body
 	{
-		
+		text-align: center;
 		font-family: Comic Sans MS;
 		font-family: Calibri;
 		padding: 10pt;
@@ -17,3 +17,61 @@ a:link{color: #FFFFFF; font-weight: bold; text-decoration:none;}
 a:active{color: #FFFFFF; font-weight: bold; text-decoration:underline;}
 a:visited{color: #FFFFFF; font-weight: bold; text-decoration:none;}
 a:hover{color: #DDDDDD; font-weight: bold; text-decoration:underline;}
+
+.Header {
+   background-image: url(res/img/pattern/patternheadleft.png);
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   margin: 0 auto;	
+}
+.Header div {
+   background-image: url(res/img/pattern/patternheadright.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   padding-right: 20px;
+
+}
+.Header div div {
+   background-image: url(res/img/pattern/patternhead.png);
+   background-repeat: repeat-x;
+   padding: 0;
+   height: 20px;
+}
+
+.Mid {
+   background-image: url(res/img/pattern/patterncontentleft.png);
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   margin: 0 auto;	
+}
+.Mid div {
+   background-image: url(res/img/pattern/patterncontentright.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   padding-right: 20px;
+
+}
+.Mid div div {
+   background-color: #6176b5;
+   padding: 0;
+}
+
+.Footer {
+   background-image: url(res/img/pattern/patternfooterleft.png);
+   background-repeat: no-repeat;
+   padding-left: 20px;
+   margin: 0 auto;	
+}
+.Footer div {
+   background-image: url(res/img/pattern/patternfooterright.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   padding-right: 20px;
+
+}
+.Footer div div {
+   background-image: url(res/img/pattern/patternfooter.png);
+   background-repeat: repeat-x;
+   padding: 0;
+   height: 20px;
+}

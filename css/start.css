@@ -4,10 +4,13 @@
 		display: inline-block;
 		margin-left: 5pt;
 		margin-right: 5pt;
+		text-align: center;
+		margin: 0 auto;
 	}
 	
 .start_img
 	{
 		width: 55pt;
-		height: 55pt;
+		height: 55pt;		
+		margin: 0 auto;
 	}
