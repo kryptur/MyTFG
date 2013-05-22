@@ -1,26 +1,25 @@
 function mytfg_menu()
 	{
-		$("#main_menu").toggle();
+		$(".main_menu").toggle();
 	}
 	
 function mytfg_back()
 	{
 		history.back();
-	}
+	}	
 	
-	
-$("#menu_back").click
+$(".top_bar_back").click
 	( 
 		function()
 			{
 				mytfg_back();
 			}
-	)
+	);
 	
-$("#menu_toggle").click
+$(".top_bar_menu").click
 	( 
 		function()
 			{
 				mytfg_menu();
 			}
-	)
+	);

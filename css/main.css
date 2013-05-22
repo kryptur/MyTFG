@@ -8,7 +8,7 @@ body
 		text-align: center;
 		font-family: Comic Sans MS;
 		font-family: Calibri;
-		padding: 0pt;
+		margin: 0px;
 		color: #FFFFFF;
 		background-color: #6176b5;
 		background-image: -moz-linear-gradient(top,#00014a 0%, #6176b5 50%, #00014a 100%);

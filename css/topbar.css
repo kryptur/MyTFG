@@ -8,10 +8,9 @@
 		height: 40px;
 		padding-left: 10px;
 		padding-right: 10px;
-		font-size: 25px;
+		font-size: 24px;
 		vertical-align: middle;
-		padding-top: 7px;
-		padding-bottom: 7px;
+		padding: 0px;
 		
 		margin: 0 auto;
 		
@@ -21,21 +20,21 @@
 	
 .top_bar_back
 	{
-		position: absolute;
-		top: 7px;
-		left: 7px;
-		height: 25px;
-		width: 25px;
+		float: left;
+		margin-left: 8px;
+		margin-top: 8px;
+		height: 24px;
+		width: 24px;
 	}
 	
 
 .top_bar_menu
 	{
-		position: absolute;
-		top: 7px;
-		right: 7px;
-		height: 25px;
-		width: 25px;
+		float: right;
+		margin-right: 8px;
+		margin-top: 8px;
+		height: 24px;
+		width: 24px;
 	}
 	
 	
@@ -47,15 +46,20 @@
 		right: 0;
 		top: 40;
 		z-index: 20;
-		height: 40px;
-		padding-left: 5px;
-		padding-right: 5px;
+		height: auto;
+		min-width: 30%;
+		width: auto;
+		padding-left: 7px;
+		padding-right:7px;
 		font-size: 15px;
 		vertical-align: top;
 		padding-top: 7px;
 		padding-bottom: 7px;
 		
-		margin: 0 auto;
+		text-align: right;
+		
+		border-width: 5px;
+		border-color: #00014a;
 		
 		background-color: rgb(0,0,0);
 		background-color: rgba(0,0,0,0.5);
