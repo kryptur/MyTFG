@@ -21,8 +21,8 @@ return HTTP_GET_VARS[v];
  
 function LoadContent(site)
 {
-	var file='../content/'+site+'.html';
-	//$(".content").load(file);
+	var file='content/'+site+'.html';
+	$(".content").load(file);
 	//$(".content").html(file);
 }
  
