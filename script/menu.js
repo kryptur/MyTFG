@@ -34,6 +34,15 @@ $(".menu_item").click
 		function ()
 			{
 				var link = $(this).attr("name");
-				mytfg_goto('index.html?site='+link);
+								
+				if (link!=undefined)
+					{
+						mytfg_goto('index.html?site='+link);
+					}
+				else
+					{
+						var alt = $(this).attr("alt");
+						mytfg_goto(alt);
+					}
 			}
 	);
