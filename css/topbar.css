@@ -71,7 +71,7 @@
 		background-color: rgb(0,0,0);
 		background-color: rgba(0,0,0,0.5);
 		
-		overflow: scroll;
+		overflow: auto;
 		-moz-border-radius:10px; /* Firefox */
 		-webkit-border-radius:10px; /* Safari, Chrome */
 		border-radius:10px; /* Opera (W3C Standard) */

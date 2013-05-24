@@ -34,6 +34,6 @@ $(".menu_item").click
 		function ()
 			{
 				var link = $(this).attr("name");
-				mytfg_goto(link);
+				mytfg_goto('index.html?site='+link);
 			}
 	);
