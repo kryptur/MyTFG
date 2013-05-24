@@ -22,9 +22,9 @@ return HTTP_GET_VARS[v];
 function LoadContent(site)
 {
 	if (site=='undefined')
-		mytfg_goto('?site=start');
+		{mytfg_goto('?site=start');}
 		
-	var file=toLowerCase('content/'+site+'.html');
+	var file=('content/'+toLowerCase(site)+'.html');
 	$(".content").load(file);
 	//$(".content").html(file);
 }
