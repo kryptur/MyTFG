@@ -21,7 +21,10 @@ return HTTP_GET_VARS[v];
  
 function LoadContent(site)
 {
-	var file='content/'+site+'.html';
+	if (site=='undefined')
+		mytfg_goto('?site=start');
+		
+	var file=toLowerCase('content/'+site+'.html');
 	$(".content").load(file);
 	//$(".content").html(file);
 }
