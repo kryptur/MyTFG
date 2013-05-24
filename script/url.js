@@ -24,11 +24,9 @@ function LoadContent(site)
 	if (site=='undefined')
 		{mytfg_goto('?site=start');}
 		
-	var file=('content/'+toLowerCase(site)+'.html');
+	var file='content/'+site.toLowerCase()+'.html';
 	$(".content").load(file);
 	//$(".content").html(file);
 }
  
-var s=GET('site');
-LoadContent(s);
 
